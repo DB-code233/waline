@@ -1,8 +1,11 @@
 {
-  "name": "template",
-  "version": "0.0.1",
+  "name": "waline-service",
+  "version": "1.0.0",
   "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
   "dependencies": {
-    "@waline/vercel": "latest"
+    "@waline/vercel": "^3.0.0"
   }
 }
